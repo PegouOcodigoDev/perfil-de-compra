@@ -8,17 +8,6 @@ Este projeto foi desenvolvido para analisar dados de compras de consumidores e i
 
 Com esses agrupamentos, é possível entender melhor o perfil de cada grupo de consumidores e criar estratégias mais direcionadas para cada segmento.
 
-## 💡 Por Que Este Projeto Existe?
-
-Em e-commerce e varejo, entender o comportamento dos consumidores é fundamental para:
-
-- **Personalizar recomendações**: Mostrar produtos que realmente interessam a cada grupo
-- **Otimizar campanhas de marketing**: Criar mensagens e ofertas específicas para cada perfil
-- **Melhorar a experiência do cliente**: Entender o que cada grupo valoriza
-- **Aumentar conversão**: Oferecer produtos e preços adequados a cada segmento
-
-Este sistema automatiza esse processo de análise, identificando automaticamente grupos de consumidores semelhantes sem necessidade de análise manual extensiva.
-
 ## 🔍 O Que O Sistema Faz?
 
 ### 1. Análise de Dados de Compras
@@ -44,8 +33,6 @@ O sistema oferece um dashboard interativo onde você pode:
 
 - **Comparar métodos**: Ver como K-means e DBSCAN agruparam os consumidores
 - **Analisar métricas de qualidade**: Entender quão bem os grupos foram formados
-- **Explorar perfis**: Ver detalhes dos consumidores em cada grupo
-- **Identificar padrões**: Entender características comuns dentro de cada grupo
 
 ## 📊 Resultados e Insights
 
@@ -130,11 +117,3 @@ http://localhost:8050
 4. **Para parar o servidor**:
 
 Pressione `Ctrl + C` no terminal onde o servidor está rodando.
-
-### Navegando pelo Dashboard
-
-1. **Métricas Gerais**: No topo, veja o resumo de cada método com suas métricas de qualidade
-2. **Seleção de Método**: Escolha entre K-means ou DBSCAN para visualizar
-3. **Gráficos**: Explore distribuições e análises de valor
-4. **Tabela de Resumo**: Veja estatísticas agregadas de cada grupo
-5. **Detalhes**: Explore os consumidores individuais em cada grupo (máximo de 10 por grupo, ordenados por preço)
